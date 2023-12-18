@@ -1,3 +1,66 @@
+#new-title {
+  color: green;
+}
+
+h1[attr] {
+  color: indigo;
+}
+
+.title {
+  color: blue;
+}
+
+.text {
+  color: aqua;
+}
+
 h1 {
   color: red;
+}
+
+.block {
+  box-sizing: border-box;
+
+  width: 400px;
+  height: 400px;
+  /* background-color: lightcoral; */
+
+  /* border-width: 10px;
+  border-color: firebrick;
+  border-style: solid; */
+
+  border: 10px solid black;
+
+  /* border-radius: 100px; */
+  /* border-radius: 50%; */
+
+  /* border-top-left-radius: 100px;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 300px;
+  border-bottom-left-radius: 400px; */
+
+  /* border-radius: 100px 200px 300px 400px; */
+
+  /* Ichki joy ajratish */
+  padding: 50px;
+  /* padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px; */
+  /* padding: 50px 70px 30px 50px; */
+
+
+  /* Tashqi joy ajratish */
+  /* margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px; */
+  /* margin: 50px 100px; */
+
+
+  /* Block ni center ga olish */
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+  
 }
